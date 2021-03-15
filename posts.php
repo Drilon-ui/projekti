@@ -17,6 +17,7 @@
 
 ?>
 
+kom ndryshu diqka
 <?php 
 	
 	include 'footer.php';
