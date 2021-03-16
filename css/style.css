@@ -340,13 +340,68 @@ p{
         color: blue;
     }
 
+.contact-email {
+
+    padding-top: 50px;
+    margin-left: 325px;
+   
+}
+.contact-email input{
+    background-color: #353541;
+    width: 505px;
+    height: 30px;
+    color: white;
+}
+
+.contact-subject {
+    padding-top: 30px;
+    margin-left: 295px;
+}
+.contact-subject input{
+    background-color: #353541;
+    width: 507px;
+    height: 30px;
+    color: white;
+}
+.contact-subject label{
+    background-color: white;
+}
+
+.contact-message {
+    padding-top: 30px;
+    margin-left: 235px;
+}
+
+.contact-message textarea {
+    background-color: #353541;
+    font-size: 15px;
+    color: white;
+}
+
+.contact-message label {
+    float: left;
+    margin-top: 50px;
+    padding-right: 5px;
+    margin-left: 58px;
+
+}
+
+.contact-btn button {
+    width: 504px;
+    margin-top: 20px;
+    margin-left: 425px;
+    background-color: #353541;
+    height: 50px;
+    border-radius: 12px;
+}
+
+.contact-btn {
+    padding-bottom: 50px;
+}
+
 
 /* Submit CSS */
 
-form{
-    border-style: solid;
-    border-top: hidden;
-}
 
 .submit{
     border-style: solid;
@@ -411,7 +466,8 @@ form{
 
 .submit-btn button {
     width: 504px;
-    margin-left: 350px;
+    margin-top: 20px;
+    margin-left: 360px;
     background-color: #353541;
     height: 50px;
     border-radius: 12px;
@@ -533,6 +589,7 @@ legend {
     background-color: #353541;
     width: 200px;
     height: 25px;
+    color: white;
 }
 
 /*.submit-container input {

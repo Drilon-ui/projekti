@@ -3,7 +3,7 @@
 	
 	$currentPage = 'register';
 	include 'header.php';
-
+  require_once('connectvars.php');
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -18,8 +18,7 @@
   
 
   // Connect to the database
-  $dbc = mysqli_connect('localhost', 'drilon', 'drilon123', 'web-projekti');
-
+  $dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
   if (isset($_POST['submit'])) {
     // Grab the profile data from the POST
     $username = mysqli_real_escape_string($dbc, trim($_POST['username']));

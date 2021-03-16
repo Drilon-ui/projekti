@@ -1,8 +1,9 @@
 <?php 
 
 	include 'header.php';
-
-	$dbc = mysqli_connect('localhost', 'drilon', 'drilon123', 'web-projekti');
+	require_once('connectvars.php');
+	
+	$dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 	$query = "SELECT * FROM posts";
 
 	$data = mysqli_query($dbc, $query);
@@ -17,7 +18,7 @@
 
 ?>
 
-kom ndryshu diqka
+
 <?php 
 	
 	include 'footer.php';
